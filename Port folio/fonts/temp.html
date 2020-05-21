@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1366, maximum-scale=1.0" name="viewport"/>
+        <style>
+            @font-face {
+                font-family
+                :
+                 
+                "AdobeGothicStd-Bold"
+                ;
+                
+                                          
+                src
+                :
+                 
+                url("../fonts/AdobeGothicStd-Bold.otf")
+                 
+                format("opentype")
+                ;
+            }
+            .desktop {
+                width               : 100%;
+                min-width           : 1366px;
+                height              : 100vh;
+                min-height          : 768px;
+                position            : relative;
+                overflow            : hidden;
+                margin              : 0px;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                background-color    : rgba(255, 255, 255, 1.0);
+                opacity             : 1.0;
+            }
+            a {
+                text-decoration     : none;
+            }
+            div {
+                -webkit-text-size-adjust: none;
+            }
+            .anima-full-width-a {
+                width               : 100%;
+            }
+            .anima-full-height-a {
+                height              : 100%;
+            }
+            div {
+                -webkit-text-size-adjust: none;
+            }
+            .desktop .rectangle {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 0px;
+                height              : 768px;
+                box-sizing          : border-box;
+                width               : 497px;
+                position            : absolute;
+                margin              : 0;
+                left                : 0px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(240, 221, 199, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .rectangle1 {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 82px;
+                height              : 587px;
+                width               : 414px;
+                position            : absolute;
+                margin              : 0;
+                left                : 341px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .yashwanth {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 401px;
+                height              : 59px;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 398px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "LucidaGrande-Bold", Helvetica, Arial, serif;
+                font-size           : 50.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 59.0px;
+            }
+            .desktop .oval {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 164px;
+                height              : 220px;
+                width               : 220px;
+                position            : absolute;
+                margin              : 0;
+                left                : 428px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .line {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 485px;
+                height              : 4px;
+                width               : 77px;
+                position            : absolute;
+                margin              : 0;
+                left                : 495px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .algorithmdesigner {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 514px;
+                height              : 33px;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 401px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "LaoSangamMN", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 33.0px;
+            }
+            .desktop .rectangle2 {
+                background-color    : rgba(255, 255, 255, 1.0);
+                top                 : 590px;
+                height              : 45px;
+                box-sizing          : border-box;
+                width               : 366px;
+                position            : absolute;
+                margin              : 0;
+                left                : 355px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(255, 255, 255, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .hello {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 142px;
+                height              : 150px;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 760px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "AdobeGothicStd-Bold", Helvetica, Arial, serif;
+                font-size           : 150.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 300.0px;
+            }
+            .desktop .facebook {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 602px;
+                height              : 17px;
+                width               : 9px;
+                position            : absolute;
+                margin              : 0;
+                left                : 463px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .twitter {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 601px;
+                height              : 20px;
+                width               : 20px;
+                position            : absolute;
+                margin              : 0;
+                left                : 497px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .linkedin {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 601px;
+                height              : 20px;
+                width               : 20px;
+                position            : absolute;
+                margin              : 0;
+                left                : 538px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .instagramsketched {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 598px;
+                height              : 26px;
+                width               : 26px;
+                position            : absolute;
+                margin              : 0;
+                left                : 579px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .hereu2019swhoiam {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 303px;
+                height              : 48px;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 767px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica", Helvetica, Arial, serif;
+                font-size           : 40.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 48.0px;
+            }
+            .desktop .whatido {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 303px;
+                height              : 48px;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 1071px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica", Helvetica, Arial, serif;
+                font-size           : 40.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 48.0px;
+            }
+            .desktop .rectangle3 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 362px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 766px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .about {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 370px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 814px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 30.0px;
+            }
+            .desktop .rectangle4 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 362px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 966px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .experience {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 371px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 989px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 30.0px;
+            }
+            .desktop .rectangle5 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 435px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 966px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .projects {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 445px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 1007px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 30.0px;
+            }
+            .desktop .rectangle6 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 503px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 766px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .resume {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 512px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 813px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 30.0px;
+            }
+            .desktop .rectangle7 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 435px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 768px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .certifications {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 446px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 788px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 22.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 26.0px;
+            }
+            .desktop .rectangle8 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 362px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 1166px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .skills {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 370px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 1223px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 30.0px;
+            }
+            .desktop .rectangle9 {
+                background-color    : rgba(240, 221, 199, 1.0);
+                top                 : 435px;
+                height              : 47px;
+                box-sizing          : border-box;
+                width               : 182px;
+                position            : absolute;
+                margin              : 0;
+                left                : 1166px;
+                border-radius       : 23px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(150, 150, 150, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .education {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 443px;
+                height              : auto;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 1196px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 30.0px;
+            }
+            .desktop .rectangle10 {
+                background-color    : rgba(255, 255, 255, 1.0);
+                top                 : 40px;
+                height              : 26px;
+                box-sizing          : border-box;
+                width               : 108px;
+                position            : absolute;
+                margin              : 0;
+                left                : 1210px;
+                border-style        : solid;
+                border-width        : 1px;
+                border-color        : rgba(255, 255, 255, 1.0);
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .icons8home208 {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 38px;
+                height              : 28px;
+                width               : 28px;
+                position            : absolute;
+                margin              : 0;
+                left                : 1210px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+            }
+            .desktop .home {
+                background-color    : rgba(255,255,255,0.0);
+                top                 : 41px;
+                height              : 25px;
+                width               : auto;
+                position            : absolute;
+                margin              : 0;
+                left                : 1245px;
+                transform           : rotate(0deg);
+                opacity             : 1.0;
+                font-family         : "AdobeGothicStd-Bold", Helvetica, Arial, serif;
+                font-size           : 25.0px;
+                color               : rgba(2, 2, 2, 1.0);
+                text-align          : center;
+                line-height         : 50.0px;
+            }
+            /* .anima-animate-appear prefix for appear animations */
+            .anima-animate-appear {
+                opacity             : 0;
+                display             : block;
+                -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+                -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+                -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+                animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+            }
+            .anima-animate-disappear {
+                opacity             : 1;
+                display             : block;
+                -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+                -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+                -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+                animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+            }
+            .anima-animate-nodelay {
+                -webkit-animation-delay: 0;
+                -moz-animation-delay: 0;
+                -o-animation-delay  : 0;
+                animation-delay     : 0;
+            }
+            @-webkit-keyframes anima-reveal {
+                0%
+                
+                   
+                  
+                {
+                      opacity: 0;
+                    }
+                
+                  
+                    
+                  
+                100%
+                
+                   
+                  
+                {
+                      opacity: 1;
+                    }
+            }
+            @-moz-keyframes anima-reveal {
+                0%
+                
+                   
+                  
+                {
+                      opacity: 0;
+                    }
+                
+                  
+                    
+                  
+                100%
+                
+                   
+                  
+                {
+                      opacity: 1;
+                    }
+            }
+            @-o-keyframes anima-reveal {
+                0%
+                
+                   
+                  
+                {
+                      opacity: 0;
+                    }
+                
+                  
+                    
+                  
+                100%
+                
+                   
+                  
+                {
+                      opacity: 1;
+                    }
+            }
+            @keyframes anima-reveal {
+                0%
+                
+                   
+                  
+                {
+                      opacity: 0;
+                    }
+                
+                  
+                    
+                  
+                100%
+                
+                   
+                  
+                {
+                      opacity: 1;
+                    }
+            }
+            .anima-valign-text-middle {
+                display             : flex;
+                flex-direction      : column;
+                justify-content     : center;
+            }
+            .anima-component-wrapper,
+            .anima-component-wrapper * {
+                pointer-events      : none;
+            }
+            .anima-component-wrapper a *,
+            .anima-component-wrapper a,
+            .anima-component-wrapper input,
+            .anima-component-wrapper video,
+            .anima-component-wrapper iframe,
+            .anima-listeners-active,
+            .anima-listeners-active * {
+                pointer-events      : auto;
+            }
+            .anima-hidden,
+            .anima-hidden * {
+                visibility          : hidden;
+                pointer-events      : none;
+            }
+            .anima-smart-layers-pointers,
+            .anima-smart-layers-pointers * {
+                pointer-events      : auto;
+                visibility          : visible;
+            }
+            .anima-component-wrapper.anima-not-ready,
+            .anima-component-wrapper.anima-not-ready * {
+                visibility          : hidden !important;
+            }
+            .anima-listeners-active-click,
+            .anima-listeners-active-click * {
+                cursor              : pointer;
+            }
+            .anima-word-break {
+                overflow-wrap       : break-word;
+                word-wrap           : break-word;
+                word-break          : break-all;
+                word-break          : break-word;
+            }
+        </style>
+        <meta content="AnimaApp.com - Design to code, Automated." name="author"/>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktop"/>
+        <div class="desktop anima-word-break ">
+            <div style="width: 1366px; height: 100%; position:relative; margin:auto;">
+                <div class="rectangle">
+                </div>
+                <img alt="Image" class="rectangle1" src="./desktop-rectangle.png"/>
+                <div class="yashwanth anima-valign-text-middle">
+                    Yashwanth
+                </div>
+                <img alt="Image" class="oval" src="./desktop-oval@2x.png"/>
+                <img alt="Image" class="line" src="./desktop-line@2x.png"/>
+                <div class="algorithmdesigner anima-valign-text-middle">
+                    ALGORITHM DESIGNER
+                </div>
+                <div class="rectangle2">
+                </div>
+                <div class="hello anima-valign-text-middle">
+                    Hello
+                </div>
+                <a href="https://www.facebook.com/yashu.nani.180" target="_blank">
+                    <img alt="Image" class="facebook" src="./desktop-facebook@2x.png"/>
+                </a>
+                <a href="https://twitter.com/YJonnagaddala" target="_blank">
+                    <img alt="Image" class="twitter" src="./desktop-twitter@2x.png"/>
+                </a>
+                <a href="https://in.linkedin.com/in/yashwanth-jonnagaddala-14358a170" target="_blank">
+                    <img alt="Image" class="linkedin" src="./desktop-linkedin@2x.png"/>
+                </a>
+                <a href="https://www.instagram.com/myself__yashwanth/?hl=en" target="_blank">
+                    <img alt="Image" class="instagramsketched" src="./desktop-instagram-sketched@2x.png"/>
+                </a>
+                <div class="hereu2019swhoiam anima-valign-text-middle">
+                    Here’s who I am
+                </div>
+                <div class="whatido anima-valign-text-middle">
+                    &amp; what I do
+                </div>
+                <a href="anima://page/50BC87BF-F812-4D9F-BEED-1EFEFB0B6B14">
+                    <div class="rectangle3">
+                    </div>
+                </a>
+                <a href="anima://page/50BC87BF-F812-4D9F-BEED-1EFEFB0B6B14">
+                    <div class="about">
+                        About
+                    </div>
+                </a>
+                <a href="anima://page/DBFF9660-E7BF-4FC2-B37B-DCF1B83ACDC2">
+                    <div class="rectangle4">
+                    </div>
+                </a>
+                <a href="anima://page/DBFF9660-E7BF-4FC2-B37B-DCF1B83ACDC2">
+                    <div class="experience">
+                        Experience
+                    </div>
+                </a>
+                <a href="anima://page/CD66D7EF-19E6-4C20-8AC5-ADE651E2A567">
+                    <div class="rectangle5">
+                    </div>
+                </a>
+                <a href="anima://page/CD66D7EF-19E6-4C20-8AC5-ADE651E2A567">
+                    <div class="projects">
+                        Projects
+                    </div>
+                </a>
+                <a href="anima://page/CBBC94CF-6CAD-4C68-B525-02A9D5D8453D">
+                    <div class="rectangle6">
+                    </div>
+                </a>
+                <a href="anima://page/CBBC94CF-6CAD-4C68-B525-02A9D5D8453D">
+                    <div class="resume">
+                        Resume
+                    </div>
+                </a>
+                <a href="anima://page/5A076887-361C-4498-8BAA-46FC74925FB1">
+                    <div class="rectangle7">
+                    </div>
+                </a>
+                <a href="anima://page/5A076887-361C-4498-8BAA-46FC74925FB1">
+                    <div class="certifications">
+                        Certifications
+                    </div>
+                </a>
+                <a href="anima://page/24D50E15-814E-4487-B2C2-E541D802F505">
+                    <div class="rectangle8">
+                    </div>
+                </a>
+                <a href="anima://page/24D50E15-814E-4487-B2C2-E541D802F505">
+                    <div class="skills">
+                        Skills
+                    </div>
+                </a>
+                <a href="anima://page/1CA131F8-BFFC-403F-82F3-79020FD9005D">
+                    <div class="rectangle9">
+                    </div>
+                </a>
+                <a href="anima://page/1CA131F8-BFFC-403F-82F3-79020FD9005D">
+                    <div class="education">
+                        Education
+                    </div>
+                </a>
+                <a href="desktop.html">
+                    <div class="rectangle10">
+                    </div>
+                </a>
+                <img alt="Image" class="icons8home208" src="./desktop-icons8-home-208@2x.png"/>
+                <div class="home anima-valign-text-middle">
+                    HOME
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <!-- End of Scripts -->
+    </body>
+</html>

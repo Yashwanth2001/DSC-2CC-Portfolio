@@ -1,0 +1,586 @@
+
+@font-face {
+                          font-family: "AdobeGothicStd-Bold";
+                          src: url('../fonts/AdobeGothicStd-Bold.otf') format("opentype");
+                        }
+                        
+.about {
+  width               : 100%;
+  min-width           : 1366px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.about .rectangle {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 0px;
+  height              : 768px;
+  box-sizing          : border-box;
+  width               : 497px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(240, 221, 199, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : 587px;
+  width               : 414px;
+  position            : absolute;
+  margin              : 0;
+  left                : 341px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .yashwanth {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 401px;
+  height              : 59px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 398px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "LucidaGrande-Bold", Helvetica, Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 59.0px;
+}
+.about .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 164px;
+  height              : 220px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 164px;
+  height              : 220px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 428px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 485px;
+  height              : 4px;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 495px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .algorithmdesigner {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 514px;
+  height              : 33px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 401px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "LaoSangamMN", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 33.0px;
+}
+.about .rectangle2 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 590px;
+  height              : 45px;
+  box-sizing          : border-box;
+  width               : 366px;
+  position            : absolute;
+  margin              : 0;
+  left                : 355px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .facebook {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 602px;
+  height              : 17px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 459px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .twitter {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 601px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .linkedin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 601px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 538px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .instagramsketched {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 598px;
+  height              : 26px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .rectangle3 {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 94px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 766px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .experience {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 103px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 789px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.about .rectangle4 {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 164px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 766px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .projects {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 174px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 807px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.about .rectangle5 {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 161px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1166px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .resume {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 170px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1213px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.about .rectangle6 {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 94px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1166px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .certifications {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 105px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1186px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 22.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+.about .rectangle7 {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 94px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 966px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .skills {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 102px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1023px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.about .rectangle8 {
+  background-color    : rgba(240, 221, 199, 1.0);
+  top                 : 164px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 182px;
+  position            : absolute;
+  margin              : 0;
+  left                : 966px;
+  border-radius       : 23px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .education {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 996px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Helvetica-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+.about .aningeniousandtal {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 362px;
+  height              : 116px;
+  width               : 601px;
+  position            : absolute;
+  margin              : 0;
+  left                : 757px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "LucidaGrande", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : justify;
+  line-height         : 29.0px;
+}
+.about .about1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 223px;
+  height              : 100px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 804px;
+  transform           : rotate(0deg);
+  opacity             : 0.9;
+  font-family         : "AdobeGothicStd-Bold", Helvetica, Arial, serif;
+  font-size           : 100.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 200.0px;
+}
+.about .rectangle9 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 28px;
+  height              : 26px;
+  box-sizing          : border-box;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1240px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .rectangle10 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 27px;
+  height              : 26px;
+  box-sizing          : border-box;
+  width               : 108px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1240px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(255, 255, 255, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .icons8home208 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 28px;
+  width               : 28px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1240px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.about .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 25px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1275px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "AdobeGothicStd-Bold", Helvetica, Arial, serif;
+  font-size           : 25.0px;
+  color               : rgba(2, 2, 2, 1.0);
+  text-align          : center;
+  line-height         : 50.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-valign-text-middle {
+  display             : flex;
+  flex-direction      : column;
+  justify-content     : center;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
